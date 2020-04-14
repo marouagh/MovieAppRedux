@@ -1,0 +1,128 @@
+body{
+  margin:0;
+  padding:0;
+  width: auto;
+  background-color: rgb(28, 38, 47);
+  /*background: linear-gradient(-75deg, #30404e, #131b20);*/
+}
+.input-group
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.form-control{
+  width:700px;
+  background-color: #30404e;
+  border:none;
+
+
+}
+.input-group-text{
+  background-color: transparent;
+  border: none;
+}
+.form-control:focus {
+  box-shadow: 0px  0px  9px 4px  #131b20;
+  background: linear-gradient(-75deg, #131b20, #4c6479);
+  color: #ffffff;
+  }
+.rating-filter{
+  cursor: pointer;
+}
+.starsgold{
+  color:gold
+}
+.card-columns{
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fill, minmax(12em, 23fr));
+  margin: 100px 60px 0px 60px;
+}
+.card{
+  border-radius: 5px; 
+  box-shadow: 0 0 0.3em ;
+
+}
+.card-img-top{
+  width:203px;
+  height: 295px;
+
+}
+.card-body
+{
+  height: 70px;
+  line-height: 0em;
+  background-color: #30404e;
+  color: #ffffff;
+}
+.container{
+  width: 235px;
+}
+
+.add-btn{
+  background-color: transparent;
+  width: 194px;
+  border: 2px solid #30404e;
+  height: 290px;
+  font-size: 50px;
+  color: #ffffff;
+  margin: 52px 78px;
+}
+.add-btn:hover{
+  background-color: #30404e;
+  border-color: transparent;
+}
+.add-btn-disp{
+  display: none;
+}
+.modal-form
+{
+  display: flex;
+  flex-direction: column;
+}
+.text-muted{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-card{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.stars{
+  margin-right: 10px;
+  font-size: 18px;
+}
+.card-footer{
+  margin:0;
+  padding: 10px 5px 10px ;
+  
+}
+.container-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(-75deg, #30404e, #131b20);
+  width: 800px;
+  height: 400px;
+  margin-top: 100px;
+  
+  box-shadow: 5px 10px 8px 10px #888888;
+  color: white;
+}
+.img-description{
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+
+
+
+

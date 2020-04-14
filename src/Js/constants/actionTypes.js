@@ -1,0 +1,5 @@
+export const ADD_MOVIE = 'ADD_MOVIE'
+export const DELETE_MOVIE = 'DELETE_MOVIE'
+export const EDIT_MOVIE = 'EDIT_MOVIE'
+export const SEARCH_NAME_MOVIE = 'SEARCH_NAME_MOVIE'
+export const SEARCH_RATING_MOVIE = 'SEARCH_RATING_MOVIE'
